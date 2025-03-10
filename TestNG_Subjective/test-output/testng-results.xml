@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="5" failed="6" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-28T11:38:18 IST" name="Suite" finished-at="2025-02-28T11:50:30 IST" duration-ms="731833">
+    <groups>
+    </groups>
+    <test started-at="2025-02-28T11:38:18 IST" name="TestNG_Chrome+128.0+Windows 10" finished-at="2025-02-28T11:38:54 IST" duration-ms="35563">
+      <class name="TestNGTests.Test_Scenario_1">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_1@1189dd52]" started-at="2025-02-28T11:38:18 IST" name="setUp" finished-at="2025-02-28T11:38:33 IST" duration-ms="14540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Chrome+128.0+Windows 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test_01_WaitAndSoftAssert()[pri:0, instance:TestNGTests.Test_Scenario_1@1189dd52]" started-at="2025-02-28T11:38:33 IST" name="Test_01_WaitAndSoftAssert" finished-at="2025-02-28T11:38:33 IST" duration-ms="297" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Selenium Grid Online | Run Selenium Test On Cloud> but was:<LambdaTest>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Selenium Grid Online | Run Selenium Test On Cloud> but was:<LambdaTest>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at TestNGTests.Test_Scenario_1.Test_01_WaitAndSoftAssert(Test_Scenario_1.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_WaitAndSoftAssert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_1@1189dd52]" started-at="2025-02-28T11:38:33 IST" name="tearDown" finished-at="2025-02-28T11:38:34 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_1 -->
+      <class name="TestNGTests.Test_Scenario_2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_2@5af3afd9]" started-at="2025-02-28T11:38:18 IST" name="setUp" finished-at="2025-02-28T11:38:32 IST" duration-ms="14048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Chrome+128.0+Windows 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2_ClickCheckBox()[pri:0, instance:TestNGTests.Test_Scenario_2@5af3afd9]" started-at="2025-02-28T11:38:32 IST" name="testScenario2_ClickCheckBox" finished-at="2025-02-28T11:38:34 IST" duration-ms="1259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2_ClickCheckBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_2@5af3afd9]" started-at="2025-02-28T11:38:34 IST" name="tearDown" finished-at="2025-02-28T11:38:34 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_2 -->
+      <class name="TestNGTests.Test_Scenario_3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_3@36bc55de]" started-at="2025-02-28T11:38:18 IST" name="setUp" finished-at="2025-02-28T11:38:52 IST" duration-ms="34050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Chrome+128.0+Windows 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestScenario_03_Alerts()[pri:0, instance:TestNGTests.Test_Scenario_3@36bc55de]" started-at="2025-02-28T11:38:52 IST" name="TestScenario_03_Alerts" finished-at="2025-02-28T11:38:53 IST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario_03_Alerts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_3@36bc55de]" started-at="2025-02-28T11:38:53 IST" name="tearDown" finished-at="2025-02-28T11:38:54 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_3 -->
+    </test> <!-- TestNG_Chrome+128.0+Windows 10 -->
+    <test started-at="2025-02-28T11:38:54 IST" name="TestNG_Microsoft Edge+127.0+macOS Ventura" finished-at="2025-02-28T11:48:59 IST" duration-ms="604859">
+      <class name="TestNGTests.Test_Scenario_1">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_1@4c371370]" started-at="2025-02-28T11:38:54 IST" name="setUp" finished-at="2025-02-28T11:39:35 IST" duration-ms="40836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Microsoft Edge+127.0+macOS Ventura]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Microsoft Edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test_01_WaitAndSoftAssert()[pri:0, instance:TestNGTests.Test_Scenario_1@4c371370]" started-at="2025-02-28T11:39:35 IST" name="Test_01_WaitAndSoftAssert" finished-at="2025-02-28T11:39:35 IST" duration-ms="122" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Selenium Grid Online | Run Selenium Test On Cloud> but was:<LambdaTest>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Selenium Grid Online | Run Selenium Test On Cloud> but was:<LambdaTest>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at TestNGTests.Test_Scenario_1.Test_01_WaitAndSoftAssert(Test_Scenario_1.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_WaitAndSoftAssert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_1@4c371370]" started-at="2025-02-28T11:39:35 IST" name="tearDown" finished-at="2025-02-28T11:39:35 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_1 -->
+      <class name="TestNGTests.Test_Scenario_2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_2@799f10e1]" started-at="2025-02-28T11:38:54 IST" name="setUp" finished-at="2025-02-28T11:39:43 IST" duration-ms="49359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Microsoft Edge+127.0+macOS Ventura]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Microsoft Edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2_ClickCheckBox()[pri:0, instance:TestNGTests.Test_Scenario_2@799f10e1]" started-at="2025-02-28T11:39:43 IST" name="testScenario2_ClickCheckBox" finished-at="2025-02-28T11:40:07 IST" duration-ms="23322" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method TestNGTests.Test_Scenario_2.testScenario2_ClickCheckBox() didn't finish within the time-out 20000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method TestNGTests.Test_Scenario_2.testScenario2_ClickCheckBox() didn't finish within the time-out 20000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:348)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2_ClickCheckBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_2@799f10e1]" started-at="2025-02-28T11:40:07 IST" name="tearDown" finished-at="2025-02-28T11:40:08 IST" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_2 -->
+      <class name="TestNGTests.Test_Scenario_3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_3@145f66e3]" started-at="2025-02-28T11:38:54 IST" name="setUp" finished-at="2025-02-28T11:48:59 IST" duration-ms="604852" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Microsoft Edge+127.0+macOS Ventura]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Microsoft Edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because "this.driver" is null
+at Utility.ConfigureClass.setUp(ConfigureClass.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestScenario_03_Alerts()[pri:0, instance:TestNGTests.Test_Scenario_3@145f66e3]" started-at="2025-02-28T11:48:59 IST" name="TestScenario_03_Alerts" finished-at="2025-02-28T11:48:59 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because "this.driver" is null
+at Utility.ConfigureClass.setUp(ConfigureClass.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario_03_Alerts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_3@145f66e3]" started-at="2025-02-28T11:48:59 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1740723539386" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_3 -->
+    </test> <!-- TestNG_Microsoft Edge+127.0+macOS Ventura -->
+    <test started-at="2025-02-28T11:48:59 IST" name="TestNG_Firefox+130.0+Windows 11" finished-at="2025-02-28T11:50:04 IST" duration-ms="65548">
+      <class name="TestNGTests.Test_Scenario_1">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_1@6302bbb1]" started-at="2025-02-28T11:48:59 IST" name="setUp" finished-at="2025-02-28T11:49:23 IST" duration-ms="23924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Firefox+130.0+Windows 11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[130.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test_01_WaitAndSoftAssert()[pri:0, instance:TestNGTests.Test_Scenario_1@6302bbb1]" started-at="2025-02-28T11:49:23 IST" name="Test_01_WaitAndSoftAssert" finished-at="2025-02-28T11:49:24 IST" duration-ms="946" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Selenium Grid Online | Run Selenium Test On Cloud> but was:<LambdaTest>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Selenium Grid Online | Run Selenium Test On Cloud> but was:<LambdaTest>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at TestNGTests.Test_Scenario_1.Test_01_WaitAndSoftAssert(Test_Scenario_1.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_WaitAndSoftAssert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_1@6302bbb1]" started-at="2025-02-28T11:49:24 IST" name="tearDown" finished-at="2025-02-28T11:49:27 IST" duration-ms="3388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_1 -->
+      <class name="TestNGTests.Test_Scenario_2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_2@4135c3b]" started-at="2025-02-28T11:48:59 IST" name="setUp" finished-at="2025-02-28T11:49:56 IST" duration-ms="57295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Firefox+130.0+Windows 11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[130.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2_ClickCheckBox()[pri:0, instance:TestNGTests.Test_Scenario_2@4135c3b]" started-at="2025-02-28T11:49:56 IST" name="testScenario2_ClickCheckBox" finished-at="2025-02-28T11:50:02 IST" duration-ms="6043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2_ClickCheckBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_2@4135c3b]" started-at="2025-02-28T11:50:02 IST" name="tearDown" finished-at="2025-02-28T11:50:04 IST" duration-ms="2206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_2 -->
+      <class name="TestNGTests.Test_Scenario_3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_3@31304f14]" started-at="2025-02-28T11:48:59 IST" name="setUp" finished-at="2025-02-28T11:49:29 IST" duration-ms="29862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Firefox+130.0+Windows 11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[130.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestScenario_03_Alerts()[pri:0, instance:TestNGTests.Test_Scenario_3@31304f14]" started-at="2025-02-28T11:49:29 IST" name="TestScenario_03_Alerts" finished-at="2025-02-28T11:49:36 IST" duration-ms="6780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario_03_Alerts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_3@31304f14]" started-at="2025-02-28T11:49:36 IST" name="tearDown" finished-at="2025-02-28T11:49:38 IST" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_3 -->
+    </test> <!-- TestNG_Firefox+130.0+Windows 11 -->
+    <test started-at="2025-02-28T11:50:04 IST" name="TestNG_Internet Explorer+11.0+Windows 10" finished-at="2025-02-28T11:50:30 IST" duration-ms="25806">
+      <class name="TestNGTests.Test_Scenario_1">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_1@128d2484]" started-at="2025-02-28T11:50:04 IST" name="setUp" finished-at="2025-02-28T11:50:17 IST" duration-ms="12439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Internet Explorer+11.0+Windows 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test_01_WaitAndSoftAssert()[pri:0, instance:TestNGTests.Test_Scenario_1@128d2484]" started-at="2025-02-28T11:50:17 IST" name="Test_01_WaitAndSoftAssert" finished-at="2025-02-28T11:50:17 IST" duration-ms="152" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Selenium Grid Online | Run Selenium Test On Cloud> but was:<LambdaTest>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Selenium Grid Online | Run Selenium Test On Cloud> but was:<LambdaTest>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at TestNGTests.Test_Scenario_1.Test_01_WaitAndSoftAssert(Test_Scenario_1.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01_WaitAndSoftAssert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_1@128d2484]" started-at="2025-02-28T11:50:17 IST" name="tearDown" finished-at="2025-02-28T11:50:17 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_1 -->
+      <class name="TestNGTests.Test_Scenario_2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_2@459e9125]" started-at="2025-02-28T11:50:04 IST" name="setUp" finished-at="2025-02-28T11:50:18 IST" duration-ms="13563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Internet Explorer+11.0+Windows 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2_ClickCheckBox()[pri:0, instance:TestNGTests.Test_Scenario_2@459e9125]" started-at="2025-02-28T11:50:18 IST" name="testScenario2_ClickCheckBox" finished-at="2025-02-28T11:50:21 IST" duration-ms="2842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2_ClickCheckBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_2@459e9125]" started-at="2025-02-28T11:50:21 IST" name="tearDown" finished-at="2025-02-28T11:50:21 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_2 -->
+      <class name="TestNGTests.Test_Scenario_3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGTests.Test_Scenario_3@7cc0cdad]" started-at="2025-02-28T11:50:04 IST" name="setUp" finished-at="2025-02-28T11:50:27 IST" duration-ms="22841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG_Internet Explorer+11.0+Windows 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestScenario_03_Alerts()[pri:0, instance:TestNGTests.Test_Scenario_3@7cc0cdad]" started-at="2025-02-28T11:50:27 IST" name="TestScenario_03_Alerts" finished-at="2025-02-28T11:50:30 IST" duration-ms="2915" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[No alert is active
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'adminpc-IdeaPad-5-15IAL7', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-52-generic', java.version: '21.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: b7306bb4-9f6b-4b13-af62-cd2...}
+Session ID: b7306bb4-9f6b-4b13-af62-cd2b01db24b6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: No alert is active
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'adminpc-IdeaPad-5-15IAL7', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-52-generic', java.version: '21.0.5'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: b7306bb4-9f6b-4b13-af62-cd2...}
+Session ID: b7306bb4-9f6b-4b13-af62-cd2b01db24b6
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+at TestNGTests.Test_Scenario_3.TestScenario_03_Alerts(Test_Scenario_3.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:45)
+at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:281)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestScenario_03_Alerts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTests.Test_Scenario_3@7cc0cdad]" started-at="2025-02-28T11:50:30 IST" name="tearDown" finished-at="2025-02-28T11:50:30 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGTests.Test_Scenario_3 -->
+    </test> <!-- TestNG_Internet Explorer+11.0+Windows 10 -->
+  </suite> <!-- Suite -->
+</testng-results>
